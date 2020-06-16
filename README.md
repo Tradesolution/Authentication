@@ -31,7 +31,7 @@ Add the access_token to all request headers going to our APIs
 `Authorization: Bearer <access_token>`
 
 ## Some of our API's
-- [Epd](https://epdapi.tradesolution.no/swagger/index.html)
-- [Mediastore](https://mediastore.tradesolution.no/api/swagger/index.html)
-- [Kjederegisteret](https://kjederegisteretapi.tradesolution.no/swagger/index.html)
+- [EpdApi](https://epdapi.tradesolution.no/swagger/index.html)
+- [MediastoreApi](https://mediastore.tradesolution.no/api/swagger/index.html)
+- [KjederegisteretApi](https://kjederegisteretapi.tradesolution.no/swagger/index.html)
 - [SalgsApi](https://salgsapi.tradesolution.no/swagger/index.html)
