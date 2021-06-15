@@ -1,5 +1,5 @@
 # Tradesolution API authentication 
-Tradesolution protect it's API's with OAUTH2 using bearer tokens/access tokens. If you need your systems to talk to ours, please contact us at post@tradesolution.no to get clientId and secret.
+Tradesolution protect its APIs with OAUTH2 using bearer tokens/access tokens. If you need your systems to talk to ours, please contact us at post@tradesolution.no to get clientId and secret.
 
 ## How to get a bearer token
 To get a bearer token that can be used against Tradesolution APIs, your system must do a POST call like this:
