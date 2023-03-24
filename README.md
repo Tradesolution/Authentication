@@ -4,14 +4,14 @@ Tradesolution protect its APIs with OAUTH2 using bearer tokens/access tokens. If
 ## How to get a bearer token
 To get a bearer token that can be used against Tradesolution APIs, your system must do a POST call like this:
 
-`POST https://gatekeeper.tradesolution.no/connect/token`
+`POST https://login.microsoftonline.com/trades.no/oauth2/v2.0/token`
 
 ### Headers
 `Content-Type: application/x-www-form-urlencoded`
 
 
 ### Body
-`client_id=<insert_client_id>&client_secret=<insert_secret>&grant_type=client_credentials&resource=https://trades.no/TradesolutionApi`
+`client_id=<insert_client_id>&client_secret=<insert_secret>&grant_type=client_credentials&resource=https://trades.no/TradesolutionApi/.default`
 
 ### Response
 ```
