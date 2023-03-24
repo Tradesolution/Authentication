@@ -11,7 +11,7 @@ To get a bearer token that can be used against Tradesolution APIs, your system m
 
 
 ### Body
-`client_id=<insert_client_id>&client_secret=<insert_secret>&grant_type=client_credentials&resource=https://trades.no/TradesolutionApi/.default`
+`client_id=<insert_client_id>&client_secret=<insert_secret>&grant_type=client_credentials&scope=https://trades.no/TradesolutionApi/.default`
 
 ### Response
 ```
@@ -19,7 +19,7 @@ To get a bearer token that can be used against Tradesolution APIs, your system m
   "access_token": "eyJhbG*****",
   "expires_in": 36000,
   "token_type": "Bearer",
-  "scope": "openid profile tradesolutionApi"
+  "ext_expires_in": 36000
 }
 ```
 The token is valid for 10 hours
